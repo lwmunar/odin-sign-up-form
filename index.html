@@ -7,6 +7,68 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="container-left">
+            <div class="title">
+                <div class="title-logo">
+                    <img src="./images/logo.svg" alt="SVG Logo">
+                </div>
+                 <div class="title-text">LAWLESS DESIGNS</div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="header">
+                <p>Hey isn't this a cool sign up page?<br>It showcases basic functionalities of a simple form.</p>
+                <p>Try it out!</p>
+            </div>
+            <div class="form-body">
+                <p>Sign up now</p>
+                <form action="" method="get" id="signup">
+                <!-- change method to post -- get was used to check result -->
+                        <div class="form-wrapper">
+                            <div class="form-name">
+                                <div>
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" id="first-name" name="first-name" placeholder="John" required>
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="form-contact">
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="JohnDoe@company.com" required>
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+                            <div class="form-password">
+                                <div>
+                                    <label for="password">Password</label>
+                                    <input type="password" id="password" id="password" required>
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <label for="password-confirm">Confirm Password</label>
+                                    <input type="password" id="password-confirm" required>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                 </form>
+            </div>
+            <div class="footer">
+                <button type="submit" form="signup">Create Account</button>
+                <p>Already have an account? <a href="#">Sign in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

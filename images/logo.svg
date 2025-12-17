@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="200" width="200"
+stroke-width="6" fill="none" viewbox="0 0 200 200" stroke="white">
+    
+    <circle cx="100" cy="100" r="89" 
+    stroke-dasharray="0 20 40 20"
+    stroke-linecap="round">
+    </circle>
+
+    <line x1="50" y1="50"
+        x2="150" y2="150">
+    </line>
+
+    <line x1="50" y1="150"
+        x2="150" y2="50">
+    </line>
+
+    <rect x="50" y="50" height="100" width="100">
+    </rect>
+</svg>
